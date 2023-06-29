@@ -26,7 +26,6 @@ Here's an example of how you can use the contract's functions:
 
 ```solidity
 // Deploy the contract
-ExceptionHandlingContract contract = new ExceptionHandlingContract();
 
 // Deposit funds
 contract.deposit(100);
