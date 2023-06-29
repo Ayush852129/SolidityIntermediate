@@ -26,11 +26,6 @@ contract FunctionsandErrors {
         return result;
     }
 
-    function transfer(address payable recipient, uint amount) public {
-        require(amount <= balance, "Insufficient balance");
-        balance -= amount;
-        recipient.transfer(amount);
-    }
 
   function triggerRevert(uint number) public {
         if (number == 0) {
